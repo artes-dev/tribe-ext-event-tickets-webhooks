@@ -1,0 +1,35 @@
+# Copyright (C) 2020 robert@artesdev.com
+# This file is distributed under the same license as the Event Tickets Extension: Event Tickets Webhooks plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Tickets Extension: Event Tickets Webhooks 1.0.0\n"
+"Report-Msgid-Bugs-To: Modern Tribe, Inc. <https://support.theeventscalendar.com/>\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-09-02T18:10:44-04:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: event-tickets-webhooks\n"
+
+#. Plugin Name of the plugin
+msgid "Event Tickets Extension: Event Tickets Webhooks"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://github.com/artes-dev/tribe-ext-event-tickets-webhooks"
+msgstr ""
+
+#. Description of the plugin
+msgid "This extension posts to a user-defined webhook when someone registers for an event. The extension supports both RSVPs and Tickets."
+msgstr ""
+
+#. Author of the plugin
+msgid "robert@artesdev.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://github.com/artes-dev"
+msgstr ""
