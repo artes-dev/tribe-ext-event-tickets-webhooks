@@ -19,7 +19,16 @@ Install and activate like any other plugin!
 * You can unzip the plugin and then upload to your plugin directory (typically _wp-content/plugins_) via FTP
 * Once it has been installed or uploaded, simply visit the main plugin list and activate it
 
-We're always interested in your feedback and our [Help Desk](https://support.theeventscalendar.com/) are the best place to flag any issues. Do note, however, that the degree of support we provide for extensions like this one tends to be very limited.
+== Hooks ==
+
+To modify the contents of the POST body use the `tribe_ext_et_webhooks_body` filter:
+
+    add_filter( 'tribe_ext_et_webhooks_body', 'modify_hook_body', 10, 4 );
+
+    function modify_hook_body( $attendee, $order_id, $event_id, $status ) {
+    // Your code
+        return $variable;
+    }
 
 == Changelog ==
 

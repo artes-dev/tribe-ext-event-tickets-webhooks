@@ -37,7 +37,7 @@ function webhook_post( $order_id = null, $event_id = null, $status = null ) {
 	$url      = $settings->get_option( 'webhook_url' );
 	$attendee = tribe_tickets_get_attendees( $order_id );
 
-	$body = apply_filters( 'event_tickets_webhook_body', $attendee, $order_id, $event_id, $status );
+	$body = apply_filters( 'tribe_ext_et_webhooks_body', $attendee, $order_id, $event_id, $status );
 	wp_remote_post( $url, array( 'body' => $body ) );
 }
 
