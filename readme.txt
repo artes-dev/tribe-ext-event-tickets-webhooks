@@ -5,7 +5,7 @@ Tags: events, calendar, webhook
 Requires at least: 4.9
 Tested up to: 5.4.1
 Requires PHP: 5.6
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPL version 3 or any later version
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -31,6 +31,10 @@ To modify the contents of the POST body use the `tribe_ext_et_webhooks_body` fil
     }
 
 == Changelog ==
+
+= [1.0.1] 2020-09-02 =
+
+* Bug fix
 
 = [1.0.0] 2020-09-02 =
 

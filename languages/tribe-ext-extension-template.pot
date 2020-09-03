@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Event Tickets Extension: Event Tickets Webhooks plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Event Tickets Extension: Event Tickets Webhooks 1.0.0\n"
+"Project-Id-Version: Event Tickets Extension: Event Tickets Webhooks 1.0.1\n"
 "Report-Msgid-Bugs-To: Modern Tribe, Inc. <https://support.theeventscalendar.com/>\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"

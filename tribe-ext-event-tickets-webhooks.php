@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/artes-dev/tribe-ext-event-tickets-webhooks
  * GitHub Plugin URI: https://github.com/artes-dev/tribe-ext-event-tickets-webhooks
  * Description:       This extension posts to a user-defined webhook when someone registers for an event. The extension supports both RSVPs and Tickets.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            robert@artesdev.com
  * Author URI:        https://github.com/artes-dev
  * License:           GPL version 3 or any later version
