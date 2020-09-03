@@ -51,17 +51,16 @@ function tribe_extension_event_tickets_webhooks() {
 
 	$autoloader->register_prefix(
 		'\\Tribe\\Extensions\\ET_Webhooks\\',
-		__DIR__ . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'Tribe',
+		__DIR__ . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'Tribe' . DIRECTORY_SEPARATOR . 'Modules',
 		'event-tickets-webhooks'
 	);
 	$autoloader->register_prefix(
 		'\\Tribe\\Extensions\\ET_Webhooks\\',
-		__DIR__ . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'Tribe' . DIRECTORY_SEPARATOR . 'Modules',
+		__DIR__ . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'Tribe',
 		'event-tickets-webhooks'
 	);
 
 	$autoloader->register_autoloader();
-	tribe_register_provider( '\Tribe\Extensions\ET_Webhooks\Plugin' );
 
 	$settings    = new Tribe\Extensions\ET_Webhooks\Settings( TRIBE_EXTENSION_EVENT_TICKETS_WEBHOOKS_OPTS_PREFIX );
 	$enabled     = $settings->get_option( 'enabled' );
